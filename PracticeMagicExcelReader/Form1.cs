@@ -125,7 +125,16 @@ namespace PracticeMagicExcelReader
             dataGridView.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Bottom;
             dataGridView.Width = tabControl1.Width;
             dataGridView.Height = tabControl1.Height;
+            dataGridView.CellDoubleClick += DataGridView_CellDoubleClick;
+            dataGridView.ReadOnly = true;
+            dataGridView.Name = "logicDataGridView";
             return dataGridView;
+        }
+
+        private void DataGridView_CellDoubleClick(Object sender, DataGridViewCellEventArgs e)
+        {
+            DataGridView dataGridView = tabControl1.SelectedTab.Controls[0] as DataGridView;
+            MessageBox.Show(dataGridView.CurrentCell.Value as string);
         }
 
         private void sideTreeView_AfterSelect_1(object sender, TreeViewEventArgs e)
