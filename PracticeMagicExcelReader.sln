@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeMagicExcelReader", "PracticeMagicExcelReader\PracticeMagicExcelReader.csproj", "{0CB9BD8D-7CDA-4D9C-B93E-F4ADD97963A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CB9BD8D-7CDA-4D9C-B93E-F4ADD97963A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB9BD8D-7CDA-4D9C-B93E-F4ADD97963A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB9BD8D-7CDA-4D9C-B93E-F4ADD97963A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB9BD8D-7CDA-4D9C-B93E-F4ADD97963A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94C91639-3DF9-403C-8CE2-284B98A7CFB7}
+	EndGlobalSection
+EndGlobal
