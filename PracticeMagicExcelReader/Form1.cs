@@ -121,6 +121,8 @@ namespace PracticeMagicExcelReader
 
             DataGridView dataGridView = new DataGridView();
             dataGridView.DataSource = table;
+            dataGridView.Dock = DockStyle.Fill;
+            dataGridView.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Bottom;
             dataGridView.Width = tabControl1.Width;
             dataGridView.Height = tabControl1.Height;
             return dataGridView;
