@@ -110,9 +110,11 @@
             this.Controls.Add(this.sideMenuPanel);
             this.Font = new System.Drawing.Font("Meiryo UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.KeyPreview = true;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.form1_KeyDown);
             this.sideMenuPanel.ResumeLayout(false);
             this.titlePanel.ResumeLayout(false);
             this.titlePanel.PerformLayout();
